@@ -66,7 +66,7 @@ public class sanphamDAO extends chinhDAO<sanpham, String> {
                 entity.setDongia(rs.getDouble("dongia"));
                 entity.setGiamgia(rs.getDouble("giamgia"));
                 entity.setSoluongton(rs.getInt("soluongton"));
-//                entity.setMalh(rs.getString("malh"));
+//              entity.setMalh(rs.getString("malh"));
                 entity.setHinh(rs.getString("hinh"));
                 list.add(entity);
             }
